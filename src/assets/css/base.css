@@ -1,0 +1,40 @@
+/* import font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+html{
+	font-family: 'Roboto', sans-serif;
+}
+
+:root{
+	--main_color: rgb(22, 37, 83);
+	--main_color_hover: rgb(39, 55, 112);
+}
+
+/* restyle bootstrap class */
+.btn:focus,
+.btn:active{
+	box-shadow: unset;
+}
+
+.btn.btn-primary{
+	background-color: var(--main_color);
+    border: var(--main_color);
+	color: white;
+}
+.btn.btn-primary:hover,
+.btn.btn-primary:active,
+.btn.btn-primary:focus{
+	background-color: var(--main_color_hover);
+    border: var(--main_color_hover);
+}
+
+.btn.btn-toggle{
+	background-color: var(--main_color);
+    border: 1px solid white;
+	color: white;
+}
+.btn.btn-toggle:hover{
+	background-color: white;
+    border: var(--main_color_hover);
+	color: var(--main_color_hover);
+	box-shadow: unset;
+}

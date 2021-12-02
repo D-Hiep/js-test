@@ -1,0 +1,56 @@
+{
+    "productToppings":
+    [
+      {
+        "id": 1,
+        "topping": 1,
+        "product": 1
+      },
+      {
+        "id": 2,
+        "topping": 1,
+        "product": 2
+      },
+      {
+        "id": 3,
+        "topping": 2,
+        "product": 2
+      },
+      {
+        "id": 4,
+        "topping": 1,
+        "product": 3
+      },
+      {
+        "id": 5,
+        "topping": 3,
+        "product": 3
+      },
+      {
+        "id": 6,
+        "topping": 2,
+        "product": 1
+      },
+      {
+        "id": 7,
+        "topping": 3,
+        "product": 1
+      },
+      {
+        "id": 8,
+        "topping": 3,
+        "product": 5
+      },
+      {
+        "id": 9,
+        "topping": 1,
+        "product": 4
+      },
+      {
+        "id": 10,
+        "topping": 2,
+        "product": 5
+      }
+    ]
+  }
+  
